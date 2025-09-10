@@ -21,7 +21,7 @@ const Highlights = () => {
             para = "Get access to the book you purchased online instantly." />
             <Highlight
             icon = {<FontAwesomeIcon icon="book-open" />}
-            title = "0,000+ Books"
+            title = "10,000+ Books"
             para = "Library has books in all your favourite categories." />
             <Highlight
             icon = {<FontAwesomeIcon icon="tags" />}

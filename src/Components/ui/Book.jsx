@@ -36,7 +36,7 @@ setTimeout(() => {
   if (mountedRef.current) {
     setImg(image)
   }
-}, 3000);   
+}, 300);   
     }
     return () => {
       // when the component unmounts
