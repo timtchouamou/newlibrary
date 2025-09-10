@@ -24,8 +24,8 @@ function Featured() {
             </h2>
 
             <div className="books">
-            {data.
-            filter(book => book.rating === 5)
+            {data
+            .filter(book => book.rating === 5)
             .slice(0,4)
             .map((book) => (<Book identify={book} key={book.id} />))}                                      
             </div>
