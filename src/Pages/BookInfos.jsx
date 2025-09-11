@@ -51,17 +51,17 @@ const BookInfo = ({identify, addToCart, cart}) => {
                 <div className="book__summary">
                   <h3 className="book__summary--title">Summary</h3>
                   <p className="book__summary--para">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Voluptatum quidem, sint, atque labore veritatis laborum non
-                    doloribus consequatur nihil itaque adipisci quisquam quae,
-                    repellendus in minus inventore cumque aperiam expedita.
+                   <b>This section:</b>  The description about each book posted  on our website. fill free to simple
+                   consider this as an example. for your own project contact us at (+1) 240 360 7191, 
+                   tim.tchouamou@gmail.com.Address: 469 southampton Dr. silver Spring Maryland, USA
                   </p>
                   <p className="book__summary--para">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Voluptatum quidem, sint, atque labore veritatis laborum non
-                    doloribus consequatur nihil itaque adipisci quisquam quae,
-                    repellendus in minus inventore cumque aperiam expedita.
+                   <b>This section:</b>  The description about each book posted  on our website. fill free to simple
+                   consider this as an example. for your own project contact us at (+1) 240 360 7191, 
+                   tim.tchouamou@gmail.com.Address: 469 southampton Dr. silver Spring Maryland, USA
                   </p>
+                  
+                 
                 </div>
                 {bookExistsOnCart() ?
                 (<Link to="/cart" className="book__link">
