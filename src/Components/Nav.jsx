@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // to import icons
-import LibraryLogo from '../assets/Library.svg'
+import LibraryLogo from '../assets/Timsand-icon.png'
 import { Link } from "react-router-dom/cjs/react-router-dom";
 
 <assets />
