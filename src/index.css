@@ -829,7 +829,7 @@ select {
   }
 
   .cart__book--img {
-    display: none;
+    display:block;
   }
   .cart__book--info {
     padding-left: 0;
