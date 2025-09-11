@@ -1,7 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // to import icons
 import LibraryLogo from '../assets/Timsand-icon.png'
-import { Link } from "react-router-dom/cjs/react-router-dom";
 
 <assets />
 
@@ -21,28 +20,28 @@ const Nav = ({numberOfItem}) => {
     return (
         <>
             <div className="nav__container">
-                <Link to="/">
+                <a href="/">
                     <img src={LibraryLogo} alt="" className="logo" />
-                </Link>
+                </a>
 
                 <ul className="nav__links">
                     <li className="nav__list">
-                        <Link to="/" className="nav__link">
+                        <a href="/" className="nav__link">
                             Home
-                        </Link>
+                        </a>
                     </li>
                     <li className="nav__list">
-                        <Link to="/books" className="nav__link">
+                        <a href="/books" className="nav__link">
                             Books
-                        </Link>
+                        </a>
                     </li>
                     <button className="btn__menu" onClick={openMenu}>
                         <FontAwesomeIcon icon="bars" />
                     </button>
                     <li className="nav__icon">
-                        <Link to="/cart" className="nal__link">
+                        <a href="/cart" className="nal__link">
                         <FontAwesomeIcon icon="shopping-cart" />
-                        </Link>
+                        </a>
                        
                          {numberOfItem > 0 && <span className="cart__length">{numberOfItem}</span>}    
                                                
@@ -56,13 +55,13 @@ const Nav = ({numberOfItem}) => {
                     </button>
                     <ul className="menu__links">
                         <li className="memu__list">
-                            <Link to="/" className="menu__link">Home</Link>
+                            <a href="/" className="menu__link">Home</a>
                         </li>
                         <li className="memu__list">
-                            <Link to="/books" className="menu__link">Books</Link>
+                            <a href="/books" className="menu__link">Books</a>
                         </li>
                         <li className="memu__list">
-                            <Link to="/cart" className="menu__link">Cart</Link>
+                            <a href="/cart" className="menu__link">Cart</a>
                         </li>
                     </ul>
                     
@@ -76,4 +75,4 @@ const Nav = ({numberOfItem}) => {
 export default Nav;
 
 // THIS const Nav = () => {}Nav() EGAL TO THIS function Nav() {}Nav()
-// <div></div> EGAL to <></>
+// <div></div> EGAL href <></>
